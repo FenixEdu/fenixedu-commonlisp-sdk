@@ -19,6 +19,7 @@
   (access_token_endpoint  "access_token" :type string :read-only t)
   ;; -- Information
   (person_endpoint  "person" :type string :read-only t)
+  (academicterm_endpoint  "academicterms" :type string :read-only t)
   (about_endpoint  "about" :type string :read-only t)
   (courses_endpoint  "courses" :type string :read-only t)
   (evaluations_endpoint  "evaluations" :type string :read-only t)

@@ -6,9 +6,10 @@
   :author "Carlos Costa (carlos.fsilvacosta@gmail.com)"
   :depends-on (#:drakma
                #:jsown
-	       #:py-configparser)
+	       #:py-configparser
+	       #:cl-ppcre)  
   :components ((:file "package")
 	       (:file "errors")
 	       (:file "information")
+	       (:file "utils")
 	       (:file "fenixedu-commonlisp-sdk")))
-

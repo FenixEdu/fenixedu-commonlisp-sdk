@@ -7,6 +7,7 @@
 	   #:get-api-url
 	   ;; public endpoints
 	   #:get-about
+	   #:get-academicterms
 	   #:get-course
 	   #:get-course-evaluations
 	   #:get-course-groups
@@ -17,6 +18,7 @@
 	   #:get-degree-courses
 	   #:get-spaces
 	   #:get-space
+	   #:get-space-blueprint
 	   ;; private endpoints
 	   #:get-person
 	   #:get-person-curriculum
